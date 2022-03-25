@@ -1,0 +1,6 @@
+print("Welcome to the Profit Distributor!")
+profit=float(input("What was the total profit? $"))
+percentage=float(input("What percentage of the profit you would like to share? "))
+member=int(input("How many members to split the profit? "))
+share=round(((profit*(percentage/100))/member),2)
+print(f"Each member will receive ${share}")
